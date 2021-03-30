@@ -1,7 +1,7 @@
-# README generator
+# readMe generator
 
 ## Description
-readme file generator
+README file generator
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,13 +15,13 @@ readme file generator
 
 
 ## Usage
-creates a read me file for the user
+
 
 ## Contributors
 
 
 ## License
-![MIT](https://https://img.shields.io/badge/license-None-lightgrey)
+![None](https://https://img.shields.io/badge/license-None-lightgrey)
 
 ## Contact
 Email: wmalos
