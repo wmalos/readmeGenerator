@@ -8,12 +8,6 @@ const questions = [
 
     {
         type: 'input',
-        name: 'fileName',
-        message: 'What is the files name?',
-    },
-
-    {
-        type: 'input',
         name: 'title',
         message: 'What is the title of your project?',
     },
@@ -84,7 +78,7 @@ function writeToFile(fileName, answers) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(answers => writeToFile(answers.fileName +".md", answers));
+    .then(answers => writeToFile("README.md", generateMarkdown(answers)));
 }
 
 // Function call to initialize app
