@@ -14,7 +14,7 @@ function renderLicenseBadge(license) {
   }
 
   if (license === "None") {
-    return `![MIT](https://https://img.shields.io/badge/license-None-lightgrey)`
+    return `![None](https://https://img.shields.io/badge/license-None-lightgrey)`
   }
 
 
