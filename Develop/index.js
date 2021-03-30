@@ -3,9 +3,15 @@ const inquirer = require("inquirer")
 const fs = require("fs")
 const generateMarkdown = require("./utils/generateMarkdown")
 
-
 // TODO: Create an array of questions for user input
 const questions = [
+
+    {
+        type: 'input',
+        name: 'fileName',
+        message: 'What is the files name?',
+    },
+
     {
         type: 'input',
         name: 'title',
@@ -40,7 +46,7 @@ const questions = [
     {
         type: 'input',
         name: 'testing',
-        message: 'What testing orecedures did you use?',
+        message: 'What testing precedures did you use?',
     },
 
     {
@@ -64,14 +70,21 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, answers) {
+    console.log(answers)
+    fs.writeFile(fileName, answers, (err) => {
+        if (err) {
+            console.log("There was an error creating the file")
+            return;
+        }
+        console.log("Successfully generated readMe")
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(answers => {
-        console.log(answers)
-    })
+    .then(answers => writeToFile(answers.fileName +".md", answers));
 }
 
 // Function call to initialize app
