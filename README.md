@@ -11,7 +11,7 @@ A ReadMe generator ran using node.js.
 - [License](#license)
 - [Contact](#contact)
 
-![readmeGenerator](https://github.com/wmalos/readmeGemeratpr/blob/main/Assets/readMe.png
+![readmeGenerator](https://github.com/wmalos/readmeGemeratpr/blob/main/Assets/readMe.png)
 
 
 ## Installation
