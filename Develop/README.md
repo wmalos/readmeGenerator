@@ -1,7 +1,7 @@
-# readMe generator
+# ReadMe Generator
 
 ## Description
-README file generator
+A ReadMe generator ran using node.js.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,10 +12,10 @@ README file generator
 - [Contact](#contact)
 
 ## Installation
-
+Use command "npm i" to download the necessary dependecies.
 
 ## Usage
-
+Easy and quick way to create your ReadMe file.
 
 ## Contributors
 
@@ -24,7 +24,7 @@ README file generator
 ![None](https://https://img.shields.io/badge/license-None-lightgrey)
 
 ## Contact
-Email: wmalos
+Email: willjmalos@gmail.com
 
 Github: https://github.com/wmalos
 
